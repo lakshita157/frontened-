@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Baloo+Bhaina+2&family=Chivo+Mono:ital,wght@0,100;1,200&family=Rubik+Gemstones&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        body {
+
+            font-family: 'Chivo Mono', monospace;
+
+        }
+
+        .container {
+            border: 10px solid red;
+            width: 1000px;
+            margin: auto;
+            background-color: antiquewhite;
+
+
+        }
+
+        .item {
+            border: 3px solid purple;
+            margin: 12px 4px;
+            padding: 12px 3px;
+            background-color: rgb(197 241 155);
+
+        }
+
+        #fruits {
+            float: right;
+
+            width: 49%;
+
+        }
+
+        #computer {
+            float: left;
+            width: 49%;
+
+        }
+
+        #stationary {
+            /*float: right;*/
+            clear: both;
+            width: 100%;
+
+        }
+
+        p,
+        h3 {
+            /*text-align: right;
+            text-align: left;
+            text-align: center;*/
+            text-align: justify;
+
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Welcome to my Store!
+        </h1>
+
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita incidunt
+                magni neque aspernatur. Quo earum dolorem excepturi similique odit, quam, nemo a omnis ex ratione
+                tempora saepe aspernatur ea! Libero voluptatibus repudiandae aliquid quae. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Odio doloribus tempore tenetur dolore ex possimus magni? Dolore quas ullam
+                temporibus eos libero dignissimos rem aut quam tempore corporis pariatur consectetur numquam, quo ut.
+                Eos ipsum cumque corporis cum architecto doloribus.</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga iusto
+                at perferendis ut facere, aperiam consectetur minima ipsa optio iste ab perspiciatis aspernatur ducimus,
+                reiciendis, veniam itaque vel et quo porro voluptatibus. Unde.Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Voluptates maxime, voluptas magni provident quibusdam pariatur accusamus iste, sequi,
+                incidunt commodi molestias similique architecto quae illum sint consequatur aut at quo placeat esse
+                minus tenetur earum dolorem! Facere officiis aspernatur possimus?</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationaryspara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium,
+                voluptas ad ipsam consequatur at, non assumenda quae nam quibusdam eaque alias quidem nisi. Ut rerum ex
+                quam eaque accusamus aliquid earum obcaecati quisquam laboriosam, magnam nesciunt eum, officia incidunt?
+                Pariatur.</p>
+        </div>
+
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glassespara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium,
+                voluptas ad ipsam consequatur at, non assumenda quae nam quibusdam eaque alias quidem nisi. Ut rerum ex
+                quam eaque accusamus aliquid earum obcaecati quisquam laboriosam, magnam nesciunt eum, officia incidunt?
+                Pariatur.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #100c11;
+        }
+
+        .container{
+            background-color: #d0c8ed;;
+            border: 5px solid #274288;
+            /*padding: 79px;*/
+            margin: 30px;
+
+          /*  padding-left: 60px;
+            padding-right: 100px;*/
+            /*padding: 23px 56px 6px 78px;/*       /*padding / margin = top right bottom left*/
+            padding: 34px 19px; /*padding / margin: y(top/bottom) x(left /right);*/
+            /*margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 100px;
+            margin-right:  100px;*/
+            border-radius: 12px;
+            width: 500px;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <h3>This is my heading</h3>
+    <p id="first"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, assumenda. Perspiciatis fugit, excepturi deleniti, quae cumque voluptatum aspernatur illo accusamus tempora expedita iure. Aliquam cupiditate eum animi sed ipsa officiis!</p>
+   </div>
+   <div class="container">
+    <h3>This is my heading</h3>
+    <p id="second"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, assumenda. Perspiciatis fugit, excepturi deleniti, quae cumque voluptatum aspernatur illo accusamus tempora expedita iure. Aliquam cupiditate eum animi sed ipsa officiis!</p>
+   </div>
+   <div class="container">
+    <h3>This is my heading</h3>
+    <p id="third"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, assumenda. Perspiciatis fugit, excepturi deleniti, quae cumque voluptatum aspernatur illo accusamus tempora expedita iure. Aliquam cupiditate eum animi sed ipsa officiis!</p>
+   </div>
+    
+</body>
+</html>
